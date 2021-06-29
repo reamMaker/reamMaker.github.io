@@ -1,0 +1,376 @@
+@charset "utf-8";
+/* CSS Document */
+/*最大的背景盒子*/
+.beijbox{
+	background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+	width: 100%;
+	height:2700px;
+	text-align: center;
+}
+/*第一组底图*/
+.beijtu {
+     width: 100%;
+	 height: 530px;
+	 margin-top: -150px;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 background-position: center center;
+    }
+	.beijtu1{background-attachment: scroll;
+			background-size: cover;
+			background-position: center center;
+	}
+
+    .beijtu-1 {
+      background-image: url(../img/背景png.png);
+		padding-top: 585px;
+		padding-left:1200;
+		opacity: 0.55;
+		width: 100%;
+		height: 540px;
+    }
+/*第二组背景图*/
+.beijt {
+     width: 100%;
+	 height: 100px;
+	 margin-top: 290px;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 background-position: center center;
+    }
+	.beijt1{background-attachment: scroll;
+			background-size: cover;
+			background-position: center center;
+	}
+
+    .beijt-1 {
+      background-image: url(../img/背景烟.png);
+		padding-top: 550px;
+		
+		opacity: 0.55;
+		width: 100%;
+		height: 150px;
+    }
+/*.beijtsan {
+     width: 100%;
+	 height: 100px;
+	 margin-top: 250px;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 background-position: center center;
+    }
+	.beijt1san{background-attachment: scroll;
+			background-size: cover;
+			background-position: center center;
+	}
+
+    .beijt-1san {
+      background-image: url(../img/背景烟.png);
+		padding-top: 205px;
+		
+		opacity: 0.55;
+		width: 100%;
+		height: 150px;
+    }*/
+
+.logo{
+	  position: absolute;
+	  left: 40px;
+	  top: 10px;
+	  }
+/*导航样式*/
+#navigation { 
+			border-top: 8px solid #0B0B0B; 
+			position: absolute; 
+            background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030); 
+            width: 90%; 
+			height: 70px; 
+			border-radius: 35px; 
+			top: 140px; 
+			left: 5%; 
+			right: 5%; 
+			}
+ /*页眉样式位置*/
+		ul {
+			list-style-type: none;
+			position: absolute;
+			top: -20px;
+			left: -1%;
+			}
+/* 链接样式*/
+		nav li{
+			float:left;
+			width:auto;
+			/*position:fixed;*/
+			cursor: pointer;
+			color: #FFFFFF;
+		      }
+			  			/* 导航水平*/
+		a{
+		  display: block;
+		  padding-top: 30px;
+		  padding-left: 30px;
+		  text-decoration: none;
+		  font-family: "方正粗黑宋简体";
+		  color: rgba(255,255,255,1.00);
+		  font-size: 130%;
+		  text-shadow: 2px 2px #000000;		
+		  }
+		/* 链接位置，字体样式*/
+.title{
+	width: 40%;
+    height: 80px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    left: 30%;
+    margin-top: 250px;
+    border-radius: 35px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+    opacity: 0.85;
+    overflow-y: hidden;
+	
+}
+/*吸烟的危害*/
+.xiyandweihai{
+	width: 300px;
+	height: 60px;
+	margin-top: 10px;
+}
+/*第一排*/
+.diyipai{
+	width: 60%;
+    height: 280px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    left: 20%;
+    margin-top: 450px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+   /* opacity: 0.75;*/
+    overflow-y: hidden;
+	
+}
+.p{	 
+	color: #FFFFFF; 
+	text-align:left; 
+	font-family: "黑体"; 
+	padding-left: 55px; 
+	padding-top: 14px; 
+	padding-right: 55px; 
+	font-size: 20px; 
+	text-indent: 35px; 
+	text-transform: uppercase;
+
+}
+.pd{	 
+	color: #FFFFFF; 
+	text-align:left; 
+	font-family: "黑体"; 
+	padding-left: 55px; 
+	padding-top: 44px; 
+	padding-right: 55px; 
+	font-size: 20px; 
+	text-indent: 35px; 
+	text-transform: uppercase;
+
+}
+/*第二排左边*/
+.dierpaizuo{
+	width: 28%;
+    height: 280px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    left: 20%;
+    margin-top: 950px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+ /*   opacity: 0.75;*/
+    overflow-y: hidden;
+}
+.dierpaiyou{
+	width: 28%;
+    height: 280px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    right: 20%;
+    margin-top: 950px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+    /*opacity: 0.75;*/
+    overflow-y: hidden;
+}
+.fei{
+	width: 370px;
+	height: 280px;
+	border-radius: 35px;	
+}
+/*第三排左边*/
+.disanpaizuo{
+	width: 28%;
+    height: 280px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    left: 20%;
+    margin-top: 1450px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+   /* opacity: 0.75;*/
+    overflow-y: hidden;
+}
+.disanpaiyou{
+	width: 28%;
+    height: 280px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    right: 20%;
+    margin-top: 1450px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+ /*   opacity: 0.75;*/
+    overflow-y: hidden;
+}
+.disipaizuo{
+	width: 28%;
+    height: 280px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    left: 20%;
+    margin-top: 1950px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+    
+    overflow-y: hidden;
+}
+.disipaiyou{
+	width: 28%;
+    height: 280px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    right: 20%;
+    margin-top: 1950px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+    
+    overflow-y: hidden;
+}
+/*返回按钮样式*/
+.backTop{
+	width: 8%;
+    height: 60px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    position: absolute;
+    top: 2300px;
+    color: #FFFFFF;
+    padding-top: 9px;
+    left: 83%;
+    border: 3px groove #585858;
+    font-family: "黑体";
+			}
+.backTop a 
+{
+    padding-top: 2px;
+    padding-left: 2px;
+}
+			
+.backTop1{
+	width: 8%;
+    height: 60px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    position: absolute;
+    top: 850px;
+    color: #FFFFFF;
+    padding-top: 9px;
+    left: 83%;
+    border: 3px groove #585858;
+    font-family: "黑体";
+			}
+.backTop1 a 
+{
+    padding-top: 2px;
+    padding-left: 2px;
+}
+.backTop2{
+	width: 8%;
+    height: 60px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    position: absolute;
+    top: 1350px;
+    color: #FFFFFF;
+    padding-top: 9px;
+    left: 83%;
+    border: 3px groove #585858;
+    font-family: "黑体";
+			}
+.backTop2 a 
+{
+    padding-top: 2px;
+    padding-left: 2px;
+}
+						
+.backTop3{
+	width: 8%;
+    height: 60px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    position: absolute;
+    top: 1850px;
+    color: #FFFFFF;
+    padding-top: 9px;
+    left: 83%;
+    border: 3px groove #585858;
+    font-family: "黑体";
+			}
+.backTop3 a 
+{
+    padding-top: 2px;
+    padding-left: 2px;
+}
+.footerContainer{
+    position: absolute;
+    left: 6%;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "方正粗黑宋简体";
+    width: 85%;
+    height: 50px;
+    top: 2440px;
+    color: #FFFFFF;
+    text-align: center;
+							}
+			 		/*页脚样式位置*/

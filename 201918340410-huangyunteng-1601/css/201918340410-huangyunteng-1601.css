@@ -1,0 +1,522 @@
+@charset "utf-8";
+/* CSS Document */
+/*最大的背景盒子*/
+.beijbox{
+	background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+	width: 100%;
+	height:3850px;
+	text-align: center;
+	/*opacity: 0.95;*/
+}
+/*第一组背景底图*/
+.beijtu {
+     width: 100%;
+	 height: 100px;
+	 margin-top: -150px;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 background-position: center center;
+    }
+	.beijtu1{background-attachment: scroll;
+			background-size: cover;
+			background-position: center center;
+	}
+
+    .beijtu-1 {
+      background-image: url(../img/背景png.png);
+		padding-top: 525px;
+		padding-left:1200;
+		opacity: 0.55;
+		width: 100%;
+		height: 300px;
+    }
+ /*第二组底图*/
+.beijt {
+     width: 100%;
+	 height: 80px;
+	 margin-top: 250px;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 background-position: center center;
+    }
+	.beijt1{background-attachment: scroll;
+			background-size: cover;
+			background-position: center center;
+	}
+
+    .beijt-1 {
+      background-image: url(../img/香烟.png);
+		padding-top: 125px;
+		padding-left:1200;
+		opacity: 0.55;
+		width: 100%;
+		height: 90px;
+    }
+/*第三组底图*/
+.beijtsan {
+     width: 100%;
+	 height: 250px;
+	 margin-top: 445px;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 background-position: center center;
+    }
+	.beijt1san{background-attachment: scroll;
+			background-size: cover;
+			background-position: center center;
+	}
+
+    .beijt-1san {
+      background-image: url(../img/背景烟.png);
+		padding-top: 425px;
+		padding-left:1200;
+		opacity: 0.55;
+		width: 100%;
+		height: 265px;
+    }
+/*第四组底图*/
+.beijtsi {
+     width: 100%;
+	 height: 250px;
+	 margin-top: 510px;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 background-position: center center;
+    }
+	.beijt1si{background-attachment: scroll;
+			background-size: cover;
+			background-position: center center;
+	}
+
+    .beijt-1si {
+      background-image: url(../img/有害健康.png);
+		padding-top: 425px;
+		padding-left:1200;
+		opacity: 0.55;
+		width: 100%;
+		height: 200px;
+    }
+
+.logo{
+	  position: absolute;
+	  left: 120px;
+	  top: 10px;
+	  }
+
+/*导航盒子*/
+#navigation { 
+			border-top: 8px solid #0B0B0B; 
+			position:absolute;
+            background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030); 
+            width: 90%; 
+			height: 70px; 
+			border-radius: 35px; 
+			top: 140px; 
+			left: 5%; 
+			right: 5%; 
+			}
+ /*页眉样式位置*/
+		ul {
+			list-style-type: none;
+			position: absolute;
+			top: -20px;
+			left: -1%;
+			}
+/* 链接样式*/
+		nav li{
+			float:left;
+			width:auto;
+			/*position:fixed;*/
+			cursor: pointer;
+		      }
+			  			/* 导航水平*/
+		a{
+		  display: block;
+		  padding-top: 30px;
+		  padding-left: 30px;
+		  text-decoration: none;
+		  font-family: "方正粗黑宋简体";
+		  color: rgba(255,255,255,1.00);
+		  font-size: 130%;
+		  text-shadow: 2px 2px #000000;		
+		  }
+		/* 链接位置，字体样式*/
+.title{
+	width: 40%;
+    height: 80px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    left: 30%;
+    margin-top: 250px;
+    border-radius: 35px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+    /*opacity: 0.85;*/
+    overflow-y: hidden;
+	
+}
+/*全球吸烟对比*/
+.quanqiuxiyanduibi{
+	width: 300px;
+	height: 60px;
+	margin-top: 10px;
+}
+/*第一排*/
+.diyipai{
+	width: 60%;
+    height: 450px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    left: 20%;
+    margin-top: 450px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+  /*  opacity: 0.95;*/
+    overflow-y: hidden;
+}
+.xiaobaioti{
+	color: white;
+}
+/*第一张图片*/
+.tupfrist{
+	border-radius:15px;
+	/*opacity: 0.6;*/
+}
+/*第二排*/
+.dierpai{
+	width: 60%;
+    height: 440px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    left: 20%;
+    margin-top: 1120px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+   /* opacity: 0.95;*/
+    overflow-y: hidden;
+}
+/*第二张图片*/
+.tupsecond{
+	border-radius:15px;
+	/*opacity: 0.8;*/
+	width: 600px;
+	height: 290px;
+}
+/*.disanpai{
+	width: 60%;
+    height: 280px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    left: 20%;
+    margin-top: 1570px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+    opacity: 0.95;
+    overflow-y: hidden;
+	z-index:11;
+}*/
+/*第三排左边*/
+.disanpaizuo{
+	width: 28%;
+    height: 280px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    left: 20%;
+    margin-top: 1770px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+   /* opacity: 0.95;*/
+    overflow-y: hidden;
+	z-index:33;
+}
+/*第三排右边*/
+.disanpaiyou{
+	width: 30%;
+    height: 280px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    right: 20%;
+    margin-top: 1770px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+    /*opacity: 0.95;*/
+    overflow-y: hidden;
+	z-index:33;
+}
+/*段落文字*/
+.pd{	 
+	color: #F2F2F2; 
+	text-align:left; 
+	font-family: "黑体"; 
+	padding-left: 45px; 
+	padding-top: 20px; 
+	padding-right: 35px; 
+	font-size: 20px; 
+	text-indent: 35px; 
+	text-transform: uppercase;
+
+}
+.tupthree{
+	width: 300px;
+	height: 270px;
+	margin-top: 5px;
+	border-radius:15px;
+	/*opacity: 0.9;*/
+}
+/*第四排*/
+.disipai{
+	width: 60%;
+    height: 500px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    left: 20%;
+    margin-top: 2260px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+    /*opacity: 0.95;*/
+    overflow-y: hidden;
+}
+.tupfour{
+	width: 300px;
+	height: 270px;
+}
+/*返回按钮样式*/
+.backTop4{
+	width: 8%;
+    height: 60px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    position: absolute;
+    top: 2850px;
+    color: #FFFFFF;
+    padding-top: 9px;
+    left: 83%;
+    border: 3px groove #585858;
+    font-family: "黑体";
+	z-index: 15;
+			}
+.backTop4 a {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+.diwupai{
+	width: 60%;
+    height: 500px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    left: 20%;
+    margin-top: 2960px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 3px groove #585858;
+    /*opacity: 0.95;*/
+    overflow-y: hidden;
+}
+.tupfive{
+	width: 400px;
+	height: 250px;
+}
+.backTop5{
+	width: 8%;
+    height: 60px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    position: absolute;
+    top: 3550px;
+    color: #FFFFFF;
+    padding-top: 9px;
+    left: 83%;
+    border: 3px groove #585858;
+    font-family: "黑体";
+	z-index: 15;
+			}
+.backTop5 a {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+.backTop1{
+	width: 8%;
+    height: 60px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    position: absolute;
+    top: 1000px;
+    color: #FFFFFF;
+    padding-top: 9px;
+    left: 83%;
+    border: 3px groove #585858;
+    font-family: "黑体";
+	z-index: 15;
+			}
+.backTop1 a {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+.backTop2{
+	width: 8%;
+    height: 60px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    position: absolute;
+    top: 1650px;
+    color: #FFFFFF;
+    padding-top: 9px;
+    left: 83%;
+    border: 3px groove #585858;
+    font-family: "黑体";
+	z-index: 15;
+			}
+.backTop2 a {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+
+.backTop3{
+	width: 8%;
+    height: 60px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    position: absolute;
+    top: 2150px;
+    color: #FFFFFF;
+    padding-top: 9px;
+    left: 83%;
+    border: 3px groove #585858;
+    font-family: "黑体";
+	z-index: 15;
+			}
+.backTop3 a {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+.footerContainer{
+    position: absolute;
+    left: 6%;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "方正粗黑宋简体";
+    width: 85%;
+    height: 50px;
+    top: 3640px;
+    color: #FFFFFF;
+    text-align: center;
+							}
+/*页脚样式位置*/
+/*数据来源方框*/
+.shujuly4{
+	width: 60%;
+    height: 20px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+	 border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+	 border: 3px groove #585858;
+    /*opacity: 0.95;*/
+    overflow-y: hidden;
+	bottom:-275px;
+	left:20%;
+}
+
+.shujuly3{
+	width: 60%;
+    height: 20px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+	 border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+	 border: 3px groove #585858;
+    /*opacity: 0.95;*/
+    overflow-y: hidden;
+	bottom: -935px;
+	left:20%;
+}
+
+
+.shujuly1{
+	width: 60%;
+    height: 20px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+	 border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+	 border: 3px groove #585858;
+    /*opacity: 0.95;*/
+    overflow-y: hidden;
+	bottom: -2135px;
+	left:20%;
+}
+.shujuly2{
+	width: 60%;
+    height: 20px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+	 border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+	 border: 3px groove #585858;
+    /*opacity: 0.95;*/
+    overflow-y: hidden;
+	bottom: -1425px;
+	left:20%;
+}
+.shujuly{
+	width: 60%;
+    height: 20px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+	 border-radius: 30px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+	 border: 3px groove #585858;
+    /*opacity: 0.95;*/
+    overflow-y: hidden;
+	bottom: -2835px;
+	left:20%;
+}
+.shujulyp{
+	color:white;
+	text-align:left;
+	font-size:5px;
+	margin-bottom:5px;
+	padding-left: 20px;
+}
+			
+
+
