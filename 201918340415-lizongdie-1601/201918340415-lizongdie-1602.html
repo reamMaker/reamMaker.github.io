@@ -1,0 +1,186 @@
+<!doctype html>
+<!--html5的网页声明，告诉浏览器开发的html文档遵循的开发标准-->
+<html lang="zh">
+<!--表示一个网页文档（范围)、网页主要语言为中文简体-->
+	<head>
+	<!--网页文档的标题-->
+		<meta charset="utf-8">
+		<!--告知浏览器此页面属于"utf-8"字符编码格式-->
+		<title>注册页</title>
+		<!--网页文档的标题-->
+		<link href="css/201918340415-lizongdie-1602.css" rel="stylesheet" type="text/css">
+	 	<!--网页引入css-->
+	
+	</head>
+
+	<body>
+		<div class="outermostContainer">
+			<!--最大容器-->
+			 <div class="rollingChart">
+				 <!--网页文档的标题-->
+				<div id="demo" style="overflow:hidden;width:750;" >
+					<table>
+						<tr>
+							<td  id="marquePic1">
+								<table>
+									<tr>
+										<td>
+											 <a href="#">
+												<img src="png_jpg/背景png.png" width="1358" height="754" alt=""/><br><br>
+											</a>
+										</td>
+										<td>
+											 <a href="#">
+												<img src="png_jpg/背景png.png" width="1358" height="754" alt=""/><br><br>
+											</a>
+										</td>
+										<td>
+											 <a href="#">
+												<img src="png_jpg/背景png.png" width="1358" height="754" alt=""/><br><br>
+											</a>
+										</td>
+										<td>
+											 <a href="#">
+												<img src="png_jpg/背景png.png" width="1358" height="754" alt=""/><br><br>
+											</a>
+										</td>
+										<td>
+											<a href="#">
+												<img src="png_jpg/背景png.png" width="1358" height="754" alt=""/><br><br>
+											</a>
+										</td>
+										<td>
+											 <a href="#">
+												<img src="png_jpg/背景png.png" width="1358" height="754" alt=""/><br><br>
+											</a>
+										</td>
+										<td>
+											 <a href="#">
+												<img src="png_jpg/背景png.png" width="1358" height="754" alt=""/><br><br>
+											</a>
+										</td>
+										<td>
+											<a href="#">
+												<img src="png_jpg/背景png.png" width="1358" height="754" alt=""/><br><br>
+											</a>
+										</td>
+										<td>
+											<a href="#">
+												<img src="png_jpg/背景png.png" width="1358" height="754" alt=""/><br><br>
+											</a>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td id="marquePic2" >
+							</td>
+						</tr>
+					</table>
+					<!--网页表单容器-->
+				</div>
+				<script type="text/javascript">
+					var speed=50 
+					marquePic2.innerHTML=marquePic1.innerHTML 
+					function Marquee(){ 
+					if(demo.scrollLeft>=marquePic1.scrollWidth){ 
+					demo.scrollLeft=0 
+					}else{ 
+					demo.scrollLeft++ 
+					} 
+					} 
+					var MyMar=setInterval(Marquee,speed) 
+					demo.onmouseover=function() {clearInterval(MyMar)} 
+					demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)} 
+				</script>
+		  </div>
+			<!--<img src="png_jpg/背景png.png" width="1358" height="754" alt=""/> -->
+			<div class="headerContainer">
+				<header>
+				<!--网页的页眉部分-->
+					<div class="login">
+						<p class="registrationText">
+							<a href="201918340415-lizongdie-1602.html">注册</a>
+						</p>
+						 <p class="loginText">
+							<a href="201918340415-lizongdie-1601.html">登陆</a> 
+						</p>
+					</div>
+				</header>
+			</div>
+			<div class="navigation">
+				<!--导航容器-->
+						<nav>
+							<ul>
+								<li><a href="../index.html" title="首页">首页</a></li>
+								<li><a href="../201918340412-leimin-1601/html/201918340412-leimin-1601.html" title="背景简介">背景简介</a></li>
+							  <li><a href="../201918340410-huangyunteng-1601/html/201918340410-huangyunteng-1601.html" title="全球吸烟对比">全球吸烟对比</a></li>
+								<li><a href="201918340415-lizongdie-1603.html" title="烟草行业的发展">烟草行业的发展</a></li>
+								<li><a href="../201918340412-leimin-1601/html/201918340412-leimin-1602.html" title="中国人民的吸烟现状">中国人民的吸烟现状</a></li>
+								<li><a href="../201918340410-huangyunteng-1601/html/201918340410-huangyunteng-1602.html" title="吸烟的危害">吸烟的危害</a></li>
+								<li><a href="../201918340410-huangyunteng-1601/html/201918340410-huangyunteng-1603.html" title="减少吸烟的手段">减少吸烟的手段</a></li>
+								<li><a href="201918340415-lizongdie-1604.html" title="我们">我们</a></li>
+							</ul>
+						</nav>
+			</div>
+			<!--网页的页眉容器-->
+			<div class="mainContainer">
+				
+				<!--网页主要容器-->
+				<main>
+					<div class="bigPicture">
+					<!--网页大图容器-->	
+						<div class="registrationInterface">
+						 <p class="welcomeText">欢迎注册</p>
+							<form method="get" action="201918340415-lizongdie-1601.html" enctype="application/x-www-form-urlencoded" autocomplete="off">
+								<fieldset>
+									<legend>注册信息</legend>
+									<div class="name">
+										<label for="name">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</label>
+										<input type="text" id="name" class="input" autofocus aria-required="true" placeholder="输入你的姓名"/>
+									</div>
+									<!--姓名容器-->
+									<div class="userSex">
+										<label >性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：&nbsp;&nbsp;</label>
+										<input type="radio">女 &nbsp;&nbsp;<input type="radio">男
+								  </div>
+									
+									<div class="birthDate">
+										<label>出&nbsp;生&nbsp;日&nbsp;期：</label>
+										<input type="text" placeholder="输入出生日期">
+								  </div>
+									
+									<div class="userName">
+										<label for="userName">用&nbsp;&nbsp;户&nbsp;&nbsp;名：</label>
+										<input type="text" id="userName" class="input" required="" placeholder="输入你的用户名"/>
+									</div>
+									
+								  <div class="password">
+										<label for="password">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+										<input type="password" id="password" class="input" required="" placeholder="密码" />
+								  </div>
+									
+									<div class="passwordVerify">
+										<label for="passwordVerify">确认密码：</label>
+										<input type="passWord" id="passwordVerify" class="input" required="" placeholder="再次输入你的密码"/>
+									</div>
+										
+									<div class="submit">
+									<input type="submit" value="注册" />
+									</div>
+								</fieldset>
+							</form>
+						</div>	
+					</div>
+				</main>
+			
+				<!--网页的页脚容器-->
+			</div>
+			<div class="footerContainer">
+					<footer>
+						<!--页面级页脚-->
+						<p class="copyright"><small>&copy; Copyringht 2021 李宗蝶. All Right Reserved</small></p>
+					</footer>
+			</div>
+		</div>
+	</body>
+</html>

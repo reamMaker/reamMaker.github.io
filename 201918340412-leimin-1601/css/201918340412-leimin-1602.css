@@ -1,0 +1,486 @@
+@charset "utf-8";
+/* CSS Document */
+.logo{
+						position: absolute;
+						left: 80px;
+						top: 10px;
+					}
+					.container {
+								background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+								width: 100%;
+								height: 4530px;
+								text-align: center;
+							    }
+				/* 最外容器大小样式*/
+					.container img {
+									text-align: center;
+						  }	
+					.title{
+							width: 40%;
+							height: 80px;
+							background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+							position: absolute;
+							left: 30%;
+							margin-top: 250px;
+							border-radius: 35px;
+							-webkit-box-shadow: 2px 2px #000000;
+							box-shadow: 2px 2px #000000;
+							top: 25px;
+							border: 3px groove #585858;
+							opacity: 0.85;
+							overflow-y: hidden;
+						    }
+				#navigation {
+							border-top: 8px solid #0B0B0B;
+							position: absolute;
+							background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+							width: 90%;
+							height: 70px;
+							border-radius: 35px;
+							top: 120px;
+							left: 5%;
+							right: 5%;
+							text-align: center;
+                             }
+					 /*页眉样式位置*/
+						ul {
+							list-style-type: none;
+							position: absolute;
+							top: -20px;
+							left: -1%;
+							}
+						/* 链接样式*/
+						li{
+							float:left;
+							/*position:fixed;*/
+						}
+			  			/* 导航水平*/
+						a{
+							display: block;
+							padding-top: 19px;
+							padding-left: 30px;
+							text-decoration: none;
+							font-family: "方正粗黑宋简体";
+							color: rgba(255,255,255,1.00);
+							font-size: 135%;
+							text-shadow: 2px 2px #000000;		
+								}
+						   /* 链接位置，字体样式*/
+				p{ 
+				color: #F2F2F2; 
+				text-align: left; 
+				font-family: "黑体";  
+				font-size: 20px; 
+				text-indent: 35px; 
+				padding-left: 30px; 
+				padding-top: 24px; 
+				padding-right: 30px; 
+				padding-bottom: 34px; 
+				position:absolute;
+				top: -25px;
+				}
+			.title{
+				width: 30%;
+				height: 80px;
+				background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+				position: absolute;
+				left: 500px;
+				margin-top: 250px;
+				border-radius: 15px;
+				-webkit-box-shadow: 2px 2px #000000;
+				box-shadow: 2px 2px #000000;
+				top: 35px;
+				border: 3px groove #585858;
+				opacity: 0.85;
+				overflow-y: hidden;
+				}/*背景简介标题背景样式*/
+			.begin{
+				position: absolute;
+				top: 13px;
+				left: 30px;
+			}
+			.b-picture{
+				background-attachment: fixed;
+			    background-size: cover;
+				background-position: center center;
+				width: 100%;
+				height: 1170px;
+				margin-top: 10px;
+				}
+			.b-photo{
+		        background-attachment: scroll;
+			    background-size: cover;
+			    background-position: center center;
+	               }
+           .b-print{
+               background-image: url(../img/背景png.png);
+		       padding-top: 25px;
+			   width: 100%;
+			   height: 1170px;
+                   }
+			.when{
+				width: 80%;
+				height: 510px;
+				background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+				position: absolute;
+				left: 150px;
+				margin-top: 250px;
+				border-radius: 15px;
+				-webkit-box-shadow: 2px 2px #000000;
+				box-shadow: 2px 2px #000000;
+				top: 180px;
+				border: 3px groove #585858;
+				overflow-y: hidden;
+				opacity: 0.75;
+			}/*第一板块大框*/
+			.people{
+				position: absolute;
+				top: 20px;
+				left: 80px;
+			}
+			.data-1{
+				position: relative;
+				padding-left: 110px;
+				padding-right: 300px;
+				top: 480px;
+				left: -150px
+			}
+			.data-11{
+				font-size: 10px;
+				opacity: 0.8;
+			}/*第一板块数据来源*/
+			.backTop{
+				width: 8%;
+				height: 60px;
+				background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+				border-radius: 15px;
+				-webkit-box-shadow: 2px 2px #000000;
+				box-shadow: 2px 2px #000000;
+				position: absolute;
+				top: 1000px;
+				color: #FFFFFF;
+				padding-top: 9px;
+				left: 80%;
+				border: 3px groove #585858;
+				font-family: "黑体";
+						}/*返回首页*/
+			.backTop a {
+				padding-top: 2px;
+				padding-left: 2px;
+			}/*返回顶部*/
+			.quantity{
+				width: 80%;
+				height: 510px;
+				background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+				position: absolute;
+				left: 150px;
+				margin-top: 250px;
+				border-radius: 15px;
+				-webkit-box-shadow: 2px 2px #000000;
+				box-shadow: 2px 2px #000000;
+				top: 950px;
+				border: 3px groove #585858;
+				overflow-y: hidden;
+				opacity: 0.75;
+			}/*第二板块大框*/
+			.quantities{
+				position: absolute;
+				left: 600px;
+				top: 30px;
+			}
+			.data-2{
+				padding-left: 110px;
+				padding-right: 300px;
+				position:relative;
+				top: 480px;
+				left: -150px
+			
+			}
+			.data-22{
+				font-size: 10px;
+				opacity: 0.8;
+			}/*第二板块数据来源*/
+			.words{
+				position: absolute;
+				top: 45px;
+				padding-left: 50px;
+				padding-right: 500px;	
+			}
+			 .c-picture{
+				background-attachment: fixed;
+			    background-size: cover;
+				background-position: center center;
+				width: 100%;
+				height: 1170px;
+				margin-top: 520px;
+				}
+			.c-photo{
+		        background-attachment: scroll;
+			    background-size: cover;
+			    background-position: center center;
+	               }
+
+           .c-print{
+               background-image: url(../img/燃烧.png);
+		       padding-top: 55px;
+			   width: 100%;
+			   height: 210px;
+                   }
+			/*第二个返回*/
+			.back{
+				width: 8%;
+				height: 60px;
+				background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+				border-radius: 15px;
+				-webkit-box-shadow: 2px 2px #000000;
+				box-shadow: 2px 2px #000000;
+				position: absolute;
+				top: 1800px;
+				color: #FFFFFF;
+				padding-top: 9px;
+				left: 80%;
+				border: 3px groove #585858;
+				font-family: "黑体";
+						}/*返回首页*/
+			.back a {
+				padding-top: 2px;
+				padding-left: 2px;
+			}/*返回顶部*/
+			.world{
+				width: 80%;
+				height: 540px;
+				background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+				position: absolute;
+				left: 150px;
+				margin-top: 250px;
+				border-radius: 15px;
+				-webkit-box-shadow: 2px 2px #000000;
+				box-shadow: 2px 2px #000000;
+				top: 1740px;
+				border: 3px groove #585858;
+				overflow-y: hidden;
+				opacity: 0.75;
+			}/*第三板块大框*/
+			.photo{
+				position: absolute;
+				top: 15px;
+				left: 80px;
+			}
+			.data-5{
+				padding-left: 110px;
+				padding-right: 300px;
+				position:relative;
+				top: -90px;
+			
+			}
+			.data-55{
+				font-size: 10px;
+				opacity: 0.8;
+			}/*第三板块数据来源*/
+			/*第三个返回*/
+			.top{
+				width: 8%;
+				height: 60px;
+				background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+				border-radius: 15px;
+				-webkit-box-shadow: 2px 2px #000000;
+				box-shadow: 2px 2px #000000;
+				position: absolute;
+				top: 2650px;
+				color: #FFFFFF;
+				padding-top: 9px;
+				left: 80%;
+				border: 3px groove #585858;
+				font-family: "黑体";
+						}/*返回首页*/
+			.top a {
+				padding-top: 2px;
+				padding-left: 2px;
+			}/*返回顶部*/
+			.jie{
+				width: 80%;
+				height: 540px;
+				background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+				position: absolute;
+				left: 150px;
+				margin-top: 250px;
+				border-radius: 15px;
+				-webkit-box-shadow: 2px 2px #000000;
+				box-shadow: 2px 2px #000000;
+				top: 2585px;
+				border: 3px groove #585858;
+				overflow-y: hidden;
+				opacity: 0.75;
+			}/*第四板块大框*/
+			.picture{
+				position: absolute;
+				top: 50px;
+				left: 80px;
+			}
+			.data-3{
+				padding-left: 110px;
+				padding-right: 300px;
+				position:relative;
+				top: 510px;
+				left: -150px
+			
+			}
+			.data-33{
+				font-size: 10px;
+				opacity: 0.8;
+			}/*第三板块数据来源*/
+			 .d-picture{
+				background-attachment: fixed;
+			    background-size: cover;
+				background-position: center center;
+				width: 100%;
+				height: 1170px;
+				margin-top: 550px;
+				}
+			.d-photo{
+		        background-attachment: scroll;
+			    background-size: cover;
+			    background-position: center center;
+	               }
+
+           .d-print{
+               background-image: url(../img/背景烟.png);
+		       padding-top: 55px;
+			   width: 100%;
+			   height: 240px;
+                   }
+			/*第四个返回*/
+			.backtrack{
+				width: 8%;
+				height: 60px;
+				background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+				border-radius: 15px;
+				-webkit-box-shadow: 2px 2px #000000;
+				box-shadow: 2px 2px #000000;
+				position: absolute;
+				top: 3450px;
+				color: #FFFFFF;
+				padding-top: 9px;
+				left: 80%;
+				border: 3px groove #585858;
+				font-family: "黑体";
+						}/*返回首页*/
+			.backtrack a {
+				padding-top: 2px;
+				padding-left: 2px;
+			}/*返回顶部*/
+			.e-picture{
+				background-attachment: fixed;
+			    background-size: cover;
+				background-position: center center;
+				width: 100%;
+				height: 1170px;
+				margin-top: 550px;
+				}
+			.e-photo{
+		        background-attachment: scroll;
+			    background-size: cover;
+			    background-position: center center;
+	               }
+
+           .e-print{
+               background-image: url(../img/有害健康.png);
+		       padding-top: 55px;
+			   width: 100%;
+			   height: 250px;
+                   }
+			.rate{
+				width: 80%;
+				height: 540px;
+				background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+				position: absolute;
+				left: 150px;
+				margin-top: 250px;
+				border-radius: 15px;
+				-webkit-box-shadow: 2px 2px #000000;
+				box-shadow: 2px 2px #000000;
+				top: 3440px;
+				border: 3px groove #585858;
+				overflow-y: hidden;
+				opacity: 0.75;
+			}/*第五板块大框*/
+			.print{
+				position: absolute;
+				top: 200px;
+				left: 135px;
+			}
+			.data-4{
+				padding-left: 110px;
+				padding-right: 300px;
+				position:relative;
+				top: 510px;
+				left: -150px
+			
+			}
+			.data-44{
+				font-size: 10px;
+				opacity: 0.8;
+			}/*第三板块数据来源*/
+			.writing{
+				opacity: 0.8;
+				position: absolute;
+				top: 10px;
+				padding-right: 1100px;
+			}
+			 .f-picture{
+				background-attachment: fixed;
+			    background-size: cover;
+				background-position: center center;
+				width: 100%;
+				height: 1170px;
+				margin-top: 550px;
+				}
+			.f-photo{
+		        background-attachment: scroll;
+			    background-size: cover;
+			    background-position: center center;
+	               }
+
+           .f-print{
+               background-image: url(../img/寿命.png);
+		       padding-top: 55px;
+			   width: 100%;
+			   height: 250px;
+                   }
+			/*第五个返回*/
+			.reback{
+				width: 8%;
+				height: 60px;
+				background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+				border-radius: 15px;
+				-webkit-box-shadow: 2px 2px #000000;
+				box-shadow: 2px 2px #000000;
+				position: absolute;
+				top: 4300px;
+				color: #FFFFFF;
+				padding-top: 9px;
+				left: 80%;
+				border: 3px groove #585858;
+				font-family: "黑体";
+						}/*返回首页*/
+			.reback a {
+				padding-top: 2px;
+				padding-left: 2px;
+			}/*返回顶部*/
+.footerContainer{
+    position: absolute;
+    left: 6%;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "方正粗黑宋简体";
+    width: 85%;
+    height: 50px;
+    top: 4470px;
+    color: #FFFFFF;
+    text-align: right;
+							}
+			 		/*页脚样式位置*/
+			 		/*页脚样式位置*/.footerContainer footer .copyright {
+    padding-left: 408px;
+}

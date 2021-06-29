@@ -1,0 +1,87 @@
+<!doctype html>
+<!--html5的网页声明，告诉浏览器开发的html文档遵循的开发标准-->
+<html lang="zh">
+<!--表示一个网页文档（范围)、网页主要语言为中文简体-->
+	<head>
+	<!--网页文档的标题-->
+		<meta charset="utf-8">
+		<!--告知浏览器此页面属于"utf-8"字符编码格式-->
+		<title>首页</title>
+		<!--网页文档的标题-->
+		
+		<link href="201918340415-lizongdie-1601/css/201918340415-lizongdie-1606.css" rel="stylesheet" type="text/css">
+		<script type="text/x-javascript" src="201918340415-lizongdie-1601/js/jquery1.8.2.min.js"></script>
+		<script src="201918340415-lizongdie-1601/js/share.js"></script>
+	</head>
+
+	<body>
+		<div class="outermostContainer">
+		<!--网页的最大容器-->
+				<img src="201918340415-lizongdie-1601/png_jpg/背景png.png" alt="" class="post-photo-size" /> 
+				<div class="headerContainer">
+					<!--网页的页眉部分-->
+						<div class="login">
+							<p class="registrationText">
+								<a href="201918340415-lizongdie-1601/201918340415-lizongdie-1602.html">注册</a> 
+							</p>
+							 <p class="loginText">
+								<a href="201918340415-lizongdie-1601/201918340415-lizongdie-1601.html">登陆</a>
+							</p>
+						</div>
+				</div>
+				<div class="howHard">
+				<!--有多难容器-->
+					<img src="201918340415-lizongdie-1601/png_jpg/文字有多难.png" width="340" height="283" alt=""/> 
+				</div>
+				<div class="cleanLung">
+				<!--干净肺容器-->
+					<img src="201918340415-lizongdie-1601/png_jpg/文字拥有一颗干净的肺.png" width="850" height="283" alt=""/> 
+				</div>
+				<div class="searchBar">
+				<!--搜索容器-->
+					<form>
+						<input placeholder="Search for more" type="url" name="location" list="urls" >
+							<datalist id="urls">
+								<option label="吸烟有害健康" value="https://bbs.guahao.com/topic/HIMAO261044"></option>
+								<option label="全球吸烟趋势图解 " value="https://www.cnxiangyan.com/article/9764.html"></option>
+								<option label="中国烟草行业发展的规律与未来态势" value="http://www.yanpk.com/article-6393.html"></option>
+								<option label="吸烟大数据：中国人吸烟现状调查" value="http://k.sina.com.cn/article_5444885376_1448a5b80020007nc3.html"></option>
+							</datalist>
+					  <input type="submit" value="search">
+					</form>
+				</div>
+				<div class="share">
+					<div id="socialShare"></div>
+					<script>
+						$(function() {
+
+							$("#socialShare").socialShare({
+								content: '',
+								url:'',
+								titile:''
+							});
+
+						});
+
+						$("#shareQQ").on("click",function(){
+							$(this).socialShare("tQQ");
+						})
+					</script>
+				</div>
+				<div class="navigation">
+			<!--导航容器-->
+					<nav>
+						<ul>
+							<li><a href="201918340412-leimin-1601/html/201918340412-leimin-1601.html" title="背景简介">背景简介</a></li>
+						  <li><a href="201918340410-huangyunteng-1601/html/201918340410-huangyunteng-1601.html" title="全球吸烟对比">全球吸烟对比</a></li>
+							<li><a href="201918340415-lizongdie-1601/201918340415-lizongdie-1603.html" title="烟草行业的发展">烟草行业的发展</a></li>
+							<li><a href="201918340412-leimin-1601/html/201918340412-leimin-1602.html" title="中国人民的吸烟现状">中国人民的吸烟现状</a></li>
+							<li><a href="201918340410-huangyunteng-1601/html/201918340410-huangyunteng-1602.html" title="吸烟的危害">吸烟的危害</a></li>
+							<li><a href="201918340410-huangyunteng-1601/html/201918340410-huangyunteng-1603.html" title="减少吸烟的手段">减少吸烟的手段</a></li>
+							<li><a href="201918340415-lizongdie-1601/201918340415-lizongdie-1604.html" title="我们">我们</a></li>
+						</ul>
+					</nav>
+			</div>
+		</div>
+	</body>
+</html>

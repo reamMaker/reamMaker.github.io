@@ -1,0 +1,209 @@
+				.outermostContainer {
+									background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+									width: 100%;
+									height: 730px;
+									text-align: center;
+									}
+				/* 最外容器大小样式*/
+
+				.howHard {
+						width: 340px;
+						height: 283px;
+						position: absolute;
+						top: -5px;
+						left: 10%
+						}
+				/* 有多难容器大小样式*/
+				.cleanLung {
+							width: 850px;
+							height: 283px;
+							position: absolute;
+							 top: 125px;
+							left: 18%;
+							}
+				/* 干净肺容器大小样式*/
+
+						.navigation {
+								border-top: 8px solid #0B0B0B;
+								position: absolute;
+								 background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+								width: 90%;
+								height: 70px;
+								border-radius: 35px;
+								top: 660px;
+								left: 4%;
+								right: 5%;
+								text-align: center;
+														}
+					 /*页眉样式位置*/
+						ul {
+							list-style-type: none;
+							position: absolute;
+							top: -20px;
+							left: -1%;
+							}
+						/* 链接样式*/
+						li{
+							float:left;
+							/*position:fixed;*/
+						}
+			  			/* 导航水平*/
+						a{
+							display: block;
+							padding-top: 19px;
+							padding-left: 25px;
+							text-decoration: none;
+							font-family: "方正粗黑宋简体";
+							color: rgba(255,255,255,1.00);
+							font-size: 150%;
+							text-shadow: 2px 2px #000000;		
+								}
+						   /* 链接位置，字体样式*/
+							.headerContainer {
+									width: 85%;
+									position: absolute;
+									left: 12%;
+									top: 0%;						
+										}
+				/* 页眉容器背景颜色位置大小*/
+						.login {
+					background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+					border-radius: 50px;
+					font-size: 15px;
+					font-family: "方正粗黑宋简体";
+					width: 80%;
+					height: 40px;
+					position: absolute;
+					top: 33px;
+				}
+					/*登陆样式位置*/
+
+				.registrationText a{
+								 position: absolute;
+								left: 78%;
+								text-shadow: 2px 2px #666669;
+								color: #FFFFFF;
+								top: -7px;
+								font-size: 20px;
+										}
+							/*注册文字样式位置*/
+										.loginText a{
+									position: absolute;
+									left: 83%;
+									text-shadow: 2px 2px #666669;
+									color: #FFFFFF;
+									top: -7px;
+									font-size: 20px;
+										}
+						/*登陆文字 样式位置*/
+						.welcome a{
+						position: absolute;
+						left: 88%;
+						text-shadow: 2px 2px #666669;
+						color: #FFFFFF;
+						 font-size: 20px;
+   						 top: -7px;
+										}
+			/*登陆文字 样式位置*/
+						.post-photo-size{
+							max-width: 90%;
+									}
+							.share{
+					position: absolute;
+					top: 550px;
+					left: 50px;
+				}
+			/*分享容器位置*/
+			 .socialShare {
+							display: block;
+							width: 4px;
+							height: 4px;
+							position: relative;
+							z-index: 1;
+						}
+			/*分享位置大小*/
+			.socialShare .msb_main {
+				display: block;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				top: 0;
+				left: 10px;
+				z-index: 2;
+				cursor: pointer;
+				text-indent: -10000px;
+				border: 10px solid #FFF;
+				box-shadow: 0 0 5px #DDD;
+				border-radius: 35px;
+			}
+			/*分享样式位置*/
+			.socialShare .msb_main:hover {
+				box-shadow: 0 0 5px #BBB;
+			}
+			/*分享鼠标经过样式*/
+			.socialShare .msb_main img {
+										width: 68px;
+										height: 68px;
+										cursor: pointer;
+										border-radius: 35px;
+										border: none;
+										float: left;
+										position: absolute;
+										top: -5px;
+										z-index: 3;
+										left: -1px;
+												}
+			/*分享图片样式*/
+									.bigPicture {
+									background-color: rgba(37,37,37,0.80);
+									width: 800px;
+									height: 200px;
+									position: absolute;
+									top: 392px;
+									margin-left: 315px;
+									opacity: 1;
+									border-radius: 37px;
+								}
+						/*大图样式*/
+			.socialShare .msb_network_button {
+												width: 31px;
+												height: 31px;
+												position: absolute;
+												top: 9px;
+												left: 92px;
+												z-index: 1;
+												cursor: pointer;
+												text-indent: -9999px;
+												display: none;
+												background: no-repeat;
+												border: 6px solid #f5f5f5;
+												border-radius: 50%;
+											}
+			/*分享位置边框*/
+			.socialShare .msb_network_button.sina {
+				background: url(../png_jpg/social.png) no-repeat -118px -79px;
+			}
+			/*分享图片位置*/
+			.socialShare .msb_network_button.qZone {
+				background: url(../png_jpg/social.png) no-repeat -60px -10px;
+			}
+			/*分享图片边框*/
+			.socialShare .msb_network_button.douban {
+				background: url(../png_jpg/social.png) no-repeat -118px -141px;
+			}
+			/*分享图片边框*/
+			.socialShare .msb_network_button.weixin {
+				background: url(../png_jpg/social.png) no-repeat -2px -77px;
+			}
+			/*分享图片边框*/
+			.socialShare .msb_network_button:hover{transition: -moz-transform 2s ease-out 0s;border: 6px solid #eee;}
+.bigPicture p {
+    color: #FFFFFF;
+    font-family: "方正舒体";
+    font-size: 25px;
+    margin-left: 47px;
+    margin-right: 47px;
+    text-align: left;
+    margin-top: 47px;
+    text-indent: 42px;
+}

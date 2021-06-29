@@ -1,0 +1,169 @@
+
+				.outermostContainer {
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    width: 100%;
+    height: 730px;
+    text-align: center;
+    overflow-y: hidden;									
+									}
+							/* 最外容器大小样式*/
+				.outermostContainer img {
+										text-align: center;
+										}	
+				/* 最外容器png图片背景*/
+				ul {
+				list-style-type: none;
+				position: absolute;
+				top: -20px;
+				left: 10%;
+				
+				}
+				/* 链接样式*/
+				li{
+				float:left;
+				
+			}
+			  /* 导航水平*/
+				a{
+					display: block;
+					padding-top: 19px;
+					padding-left: 20px;
+					text-decoration: none;
+					font-family: "方正粗黑宋简体";
+					font-size: 150%;
+					text-shadow: 2px 2px #666669;
+					color: #FFFFFF;
+									}
+				.headerContainer {
+									width: 85%;
+									position: absolute;
+									left: 12%;
+									top: 0%;						
+										}
+				/* 页眉容器背景颜色位置大小*/
+				.navigation {
+								margin-left: 135px;
+								width: 85%;
+																	}
+				.footerContainer{
+						position: absolute;
+						left: 6%;
+						background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+						border-radius: 50px;
+						font-size: 15px;
+						font-family: "方正粗黑宋简体";
+						width: 85%;
+						height: 50px;
+						top: 675px;
+							}
+			 		/*页脚样式位置*/
+					.login {
+					background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+					border-radius: 50px;
+					font-size: 15px;
+					font-family: "方正粗黑宋简体";
+					width: 80%;
+					height: 40px;
+					position: absolute;
+					top: 33px;
+				}
+					/*登陆样式位置*/
+				.navigation {
+					width: 100%;
+					height: 250px;
+					position: absolute;
+					top: 97px;
+					left: -15%;
+				}
+				/*导航样式位置*/
+				.mainContainer {
+								position: absolute;
+								top: 180px;
+								/*background-image: url(images/%E8%83%8C%E6%99%AF.jpg);*/
+								width: 80%;
+								left: 9%;
+								height: 350px;
+								color: #FFFFFF;					
+											   /* border: 1px solid rgba(217,73,75,1.00);*/
+							}
+				/*主要容器样式位置*/
+			.loginText a{
+						position: absolute;
+						left: 90%;
+						text-shadow: 2px 2px #666669;
+						color: #FFFFFF;
+						 font-size: 20px;
+   						 top: -9px;
+										}
+			/*登陆文字 样式位置*/
+			.registrationText a{
+    position: absolute;
+    left: 85%;
+    text-shadow: 2px 2px #666669;
+    color: #FFFFFF;
+    font-size: 20px;
+    top: -9px;
+										}
+							/*注册文字样式位置*/
+			.welcomeText {
+							text-shadow: 0.5px 0.5px #9D9D9D;
+							text-align: center;
+							font-family: "方正粗黑宋简体";
+							font-size: 20px;
+							color: #FFFFFF;
+												}
+					/*欢迎登陆样式*/
+			.registrationInterface {
+									background-color: rgba(37,37,37,0.70);
+									width: 500px;
+									height: 250px;
+									position: absolute;
+									top: 62px;
+									margin-left: 315px;
+									opacity: 0.85;
+									border-radius: 37px;
+											}
+					/*登陆样式位置*/
+						.bigPicture {
+									/*position: absolute;*/
+								}
+						/*大图样式*/
+						.userName {
+									margin-left: 48px; 
+									/*  position: absolute;
+									left: 60px;
+									top: 97px;	*/
+								}
+						/*用户名样式*/
+						.password {
+									/*  position: absolute;
+									left: 60px;
+									top: 127px;	*/
+									margin-left: 48px;
+									margin-top: 15px;
+								}
+							/*密码样式*/
+						.passwordVerify {
+										 /*position: absolute;
+										left: 60px;
+										top: 157px;	*/
+										margin-left: 48px; 
+										margin-top: 19px;
+									}
+								/*确认密码样式*/
+					.submit {
+    /* position: absolute;
+							left: 200px;
+							top: 207px;	*/
+						margin-left: 108px;
+						margin-top: 15px;
+													
+							}			  
+					/* 提交样式*/
+					.copyright {
+								text-align: center;
+								margin-top: 13px;
+								color: #DEDEDE;
+								text-shadow: 2px 2px #605858;
+												}
+				

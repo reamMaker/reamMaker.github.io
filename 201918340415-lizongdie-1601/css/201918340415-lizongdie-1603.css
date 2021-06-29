@@ -1,0 +1,579 @@
+
+				.outermostContainer {
+									background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+									max-width: 100%;
+									height: 6250px;
+									text-align: center;
+									}
+							/* 最外容器大小样式*/
+
+
+									#navigation {
+										border-top: 8px solid #0B0B0B;
+										position: absolute;
+										background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+										width: 90%;
+										height: 70px;
+										border-radius: 35px;
+										top: 140px;
+										left: 5%;
+										right: 5%;
+										text-align: center;
+										/*position: fixed;
+										z-index: 3;*/
+														}
+					 /*页眉样式位置*/
+						ul {
+							list-style-type: none;
+							position: absolute;
+							top: -20px;
+							left: -1%;
+							}
+						/* 链接样式*/
+						li{
+							float:left;
+							/*position:fixed;*/
+						}
+			  			/* 导航水平*/
+						a{
+							display: block;
+							padding-top: 19px;
+							padding-left: 30px;
+							text-decoration: none;
+							font-family: "方正粗黑宋简体";
+							color: rgba(255,255,255,1.00);
+							font-size: 130%;
+							text-shadow: 2px 2px #000000;		
+								}
+						   /* 链接位置，字体样式*/
+			.post-photo-size{
+						max-width: 100%;
+						height: 1000px;
+						 background-attachment: fixed;
+								  background-size: cover;
+								  background-position: center center;
+								}
+			 /*照片尺寸*/
+			.post-photo-size1{
+							background-attachment: scroll;
+								background-size: cover;
+								background-position: center center;
+						}
+			 /*照片定义*/
+    .post-photo-size-1 {
+						  background-image: url("../png_jpg/背景png.png");
+						padding-top: 25px;
+						height: 1000px;   
+						}
+			 /* 照片位置*/
+				.rollingChart{
+							width: 90%;
+							height: 300px;
+							background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+							position: absolute;
+							left: 5%;
+							margin-top: 400px;
+							border-radius: 35px;
+							-webkit-box-shadow: 2px 2px #000000;
+							box-shadow: 2px 2px #000000;
+							top: 25px;
+							border: 4px groove #585858;
+							opacity: 0.75;
+							overflow-y: hidden;
+							}
+					 /* 滚动照片容器*/
+		.contentIntroduction{
+							width: 90%;
+							height: 530px;
+							background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+							position: absolute;
+							left: 5%;
+							margin-top: 920px;
+							border-radius: 35px;
+							-webkit-box-shadow: 2px 2px #000000;
+							box-shadow: 2px 2px #000000;
+							top: 25px;
+							border: 4px groove #585858;
+							opacity: 0.85;
+							}
+						 /* 容器位置样式*/
+			.industrialValue{
+							width: 90%;
+							height: 480px;
+							background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+							position: absolute;
+							left: 5%;
+							margin-top: 1670px;
+							border-radius: 35px;
+							-webkit-box-shadow: 2px 2px #000000;
+							box-shadow: 2px 2px #000000;
+							top: 25px;
+							border: 4px groove #585858;
+							opacity: 0.85;
+							}	
+						 /* 容器位置样式*/
+						.title{
+								width: 40%;
+								height: 80px;
+								background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+								position: absolute;
+								left: 30%;
+								margin-top: 250px;
+								border-radius: 35px;
+								-webkit-box-shadow: 2px 2px #000000;
+								box-shadow: 2px 2px #000000;
+								top: 25px;
+								border: 3px groove #585858;
+								opacity: 0.75;
+								overflow-y: hidden;
+						}
+							 /* 容器位置样式*/
+			#demo{
+				margin-top: -96px;
+			}
+			 /* 容器位置*/
+			table {
+					border-collapse: collapse;
+					margin-left: -50px;
+						border:0px; 	
+						}
+				/*表的位子，和样式*/
+			.logo{
+					position: absolute;
+					top: 25px;
+					left: 120px;
+							}
+			 /* 位置*/
+			.consumerCigarettes{
+						width: 39%;
+						height: 300px;
+						background: #171717;
+						position: absolute;
+						left: 6%;
+						margin-top: 130px;
+						-webkit-box-shadow: 2px 2px #000000;
+						box-shadow: 2px 2px #000000;
+						top: 25px;
+						border: 4px groove #585858;
+						opacity: 0.85;
+						padding-top: 50px;
+						border-radius: 55px;
+						overflow-y: hidden;
+						overflow-x: hidden; 
+						padding-right: 15px;
+									}
+			.smokersNumber {
+						width: 38%;
+						height: 300px;
+						background: #171717;
+						position: absolute;
+						left: 52%;
+						margin-top: 130px;
+						-webkit-box-shadow: 2px 2px #000000;
+						box-shadow: 2px 2px #000000;
+						top: 25px;
+						border: 4px groove #585858;
+						opacity: 0.85;
+						padding-top: 50px;
+						border-radius: 55px;
+						overflow-y: hidden;
+						overflow-x: hidden;
+						padding-right: 22px;
+			}
+			.contentText p{
+    color: #F2F2F2;
+    text-align: left;
+    font-family: "黑体";
+    padding-left: 155px;
+    padding-top: 24px;
+    padding-right: 155px;
+    padding-bottom: 34px;
+    font-size: 20px;
+    text-indent: 35px;
+			}
+			.smokeBackground{
+								width: 100%;
+								margin-top: 450px;
+								  background-attachment: fixed;
+								  background-size: cover;
+								  background-position: center center;
+										}
+			.smokeBackground1{
+							background-attachment: scroll;
+								background-size: cover;
+								background-position: center center;
+						}
+    		.smokeBackground-1 {
+						  background-image: url("../png_jpg/背景烟.png");
+							padding-top: 25px;
+							height: 200px;
+							background-size: 90% 500px;
+						}
+			.industrialText p {
+								 color: #F2F2F2;
+								text-align: left;
+								font-family: "黑体";
+								font-size: 20px;
+								text-indent: 35px;
+								 padding-left: 25px;
+				}
+			.industrialText{
+    width: 38%;
+    height: 300px;
+    background: -webkit-linear-gradient(top,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    position: absolute;
+    left: 3%;
+    margin-top: 10px;
+    top: 25px;
+    border-top: 4px double #585858;
+    padding-top: 50px;
+    opacity: 0.75;
+    border-radius: 55px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-right: 22px;
+			}
+			.growthRate{
+    width: 48%;
+    height: 400px;
+    background-color: #181818;
+    position: absolute;
+    left: 48%;
+    margin-top: 10px;
+    border-radius: 35px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    top: 25px;
+    border: 4px groove #585858;
+    opacity: 0.85;
+    overflow-y: hidden;
+    overflow-x: hidden;
+									}
+				.growthRate img {
+    margin-left: -5px;
+}
+			.chartTop{
+	width: 8%;
+    height: 60px;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #000000;
+    position: absolute;
+    top: 800px;
+    color: #FFFFFF;
+    padding-top: 9px;
+    left: 83%;
+    border: 3px groove #585858;
+    font-family: "黑体";
+			}
+		.chartTop a {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+			.contentTop{
+					width: 8%;
+					height: 60px;
+					background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+					border-radius: 15px;
+					-webkit-box-shadow: 2px 2px #000000;
+					box-shadow: 2px 2px #000000;
+					position: absolute;
+					top: 1550px;
+					color: #FFFFFF;
+					padding-top: 9px;
+					left: 83%;
+					border: 3px groove #585858;
+					font-family: "黑体";
+							}
+		.contentTop a {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+			.industrialTop{
+							width: 8%;
+							height: 60px;
+							background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+							border-radius: 15px;
+							-webkit-box-shadow: 2px 2px #000000;
+							box-shadow: 2px 2px #000000;
+							position: absolute;
+							top: 2270px;
+							color: #FFFFFF;
+							padding-top: 9px;
+							left: 83%;
+							border: 3px groove #585858;
+							font-family: "黑体";
+									}
+		.industrialTop a {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+			.increaseYield {
+								width: 100%;
+								margin-top: 450px;
+								  background-attachment: fixed;
+								  background-size: cover;
+								  background-position: center center;
+										}
+			.increaseYield1{
+							background-attachment: scroll;
+								background-size: cover;
+								background-position: center center;
+						}
+    		.increaseYield-1 {
+						  background-image: url("../png_jpg/无烟.png");
+							padding-top: 12px;
+							height: 290px;
+							background-size: 88% 300px;
+						}
+			.increaseContainers{
+							width: 90%;
+							height: 480px;
+							background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+							position: absolute;
+							left: 5%;
+							margin-top: 2390px;
+							border-radius: 35px;
+							-webkit-box-shadow: 2px 2px #000000;
+							box-shadow: 2px 2px #000000;
+							top: 25px;
+							border: 4px groove #585858;
+							opacity: 0.85;
+							}
+				.increaseTop{
+						width: 8%;
+						height: 60px;
+						background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+						border-radius: 15px;
+						-webkit-box-shadow: 2px 2px #000000;
+						box-shadow: 2px 2px #000000;
+						position: absolute;
+						top: 3000px;
+						color: #FFFFFF;
+						padding-top: 9px;
+						left: 83%;
+						border: 3px groove #585858;
+						font-family: "黑体";
+			}
+		.increaseTop a {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+			.export {
+								width: 100%;
+								margin-top: 400px;
+								  background-attachment: fixed;
+								  background-size: cover;
+								  background-position: center center;
+										}
+			.export1{
+							background-attachment: scroll;
+								background-size: cover;
+								background-position: center center;
+						}
+    		.export-1 {
+						  background-image: url("../png_jpg/燃烧.png");
+							padding-top: 12px;
+							height: 300px;
+							background-size: 88% 300px;
+						}
+			.exportContainers{
+							width: 90%;
+							height: 480px;
+							background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+							position: absolute;
+							left: 5%;
+							margin-top: 3150px;
+							border-radius: 35px;
+							-webkit-box-shadow: 2px 2px #000000;
+							box-shadow: 2px 2px #000000;
+							top: 25px;
+							border: 4px groove #585858;
+							opacity: 0.85;
+							}
+				.exportTop{
+						width: 8%;
+						height: 60px;
+						background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+						border-radius: 15px;
+						-webkit-box-shadow: 2px 2px #000000;
+						box-shadow: 2px 2px #000000;
+						position: absolute;
+						top: 3760px;
+						color: #FFFFFF;
+						padding-top: 9px;
+						left: 83%;
+						border: 3px groove #585858;
+						font-family: "黑体";
+			}
+				.exportTop a {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+			.amount {
+								width: 100%;
+								margin-top: 480px;
+								  background-attachment: fixed;
+								  background-size: cover;
+								  background-position: center center;
+										}
+			.amount1{
+							background-attachment: scroll;
+								background-size: cover;
+								background-position: center center;
+						}
+    		.amount-1 {
+						  background-image: url("../png_jpg/有害健康.png");
+							padding-top: 14px;
+							height: 270px;
+							background-size: 98% 350px;
+						}
+			.amountContainers{
+							width: 90%;
+							height: 480px;
+							background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+							position: absolute;
+							left: 5%;
+							margin-top: 3908px;
+							border-radius: 35px;
+							-webkit-box-shadow: 2px 2px #000000;
+							box-shadow: 2px 2px #000000;
+							top: 25px;
+							border: 4px groove #585858;
+							opacity: 0.85;
+							}
+				.amountTop{
+						width: 8%;
+						height: 60px;
+						background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+						border-radius: 15px;
+						-webkit-box-shadow: 2px 2px #000000;
+						box-shadow: 2px 2px #000000;
+						position: absolute;
+						top: 4520px;
+						color: #FFFFFF;
+						padding-top: 9px;
+						left: 83%;
+						border: 3px groove #585858;
+						font-family: "黑体";
+			}
+				.amountTop a {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+						.quantityDemand{
+								width: 100%;
+								margin-top: 480px;
+								  background-attachment: fixed;
+								  background-size: cover;
+								  background-position: center center;
+										}
+			.quantityDemand1{
+							background-attachment: scroll;
+								background-size: cover;
+								background-position: center center;
+						}
+    		.quantityDemand-1 {
+						  background-image: url("../png_jpg/香烟.png");
+							padding-top: 14px;
+							height: 300px;
+							background-size: 98% 450px;
+						}
+			.quantityContainers{
+							width: 90%;
+							height: 480px;
+							background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+							position: absolute;
+							left: 5%;
+							margin-top: 4695px;
+							border-radius: 35px;
+							-webkit-box-shadow: 2px 2px #000000;
+							box-shadow: 2px 2px #000000;
+							top: 25px;
+							border: 4px groove #585858;
+							opacity: 0.85;
+							}
+				.quantityTop{
+						width: 8%;
+						height: 60px;
+						background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+						border-radius: 15px;
+						-webkit-box-shadow: 2px 2px #000000;
+						box-shadow: 2px 2px #000000;
+						position: absolute;
+						top: 6040px;
+						color: #FFFFFF;
+						padding-top: 9px;
+						left: 83%;
+						border: 3px groove #585858;
+						font-family: "黑体";
+			}
+				.quantityTop a {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+			.vShaped{
+								width: 100%;
+								margin-top: 480px;
+								  background-attachment: fixed;
+								  background-size: cover;
+								  background-position: center center;
+										}
+			.vShaped1{
+							background-attachment: scroll;
+								background-size: cover;
+								background-position: center center;
+						}
+    		.vShaped-1 {
+						  background-image: url("../png_jpg/世界.png");
+							padding-top: 14px;
+							height: 280px;
+							background-size: 98% 450px;
+						}
+			.vContainers{
+							width: 90%;
+							height: 480px;
+							background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+							position: absolute;
+							left: 5%;
+							margin-top: 5465px;
+							border-radius: 35px;
+							-webkit-box-shadow: 2px 2px #000000;
+							box-shadow: 2px 2px #000000;
+							top: 25px;
+							border: 4px groove #585858;
+							opacity: 0.85;
+							}
+				.vTop{
+						width: 8%;
+						height: 60px;
+						background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+						border-radius: 15px;
+						-webkit-box-shadow: 2px 2px #000000;
+						box-shadow: 2px 2px #000000;
+						position: absolute;
+						top: 5320px;
+						color: #FFFFFF;
+						padding-top: 9px;
+						left: 83%;
+						border: 3px groove #585858;
+						font-family: "黑体";
+			}
+				.vTop a {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+		.footerContainer{
+    position: absolute;
+    left: 6%;
+    background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "方正粗黑宋简体";
+    width: 85%;
+    height: 50px;
+    top: 6170px;
+    color: #FFFFFF;
+							}
+			 		/*页脚样式位置*/
